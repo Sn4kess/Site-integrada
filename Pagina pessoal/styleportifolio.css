@@ -1,0 +1,161 @@
+/* Definindo as propriedades do HTML */
+html {
+    margin: 0; /* Remove a margem padrão do navegador */
+    background-color: #111111; /* Define a cor de fundo como preto escuro */
+}
+
+/* Estilo para o elemento com ID 'titulo1' */
+#titulo1 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    left: 32%; /* Posiciona 32% da largura da tela à esquerda */
+    font-size: 50px; /* Define o tamanho da fonte como 50px */
+    color: white; /* Cor do texto como branco */
+}
+
+/* Estilo para a caixa 'caixa1' */
+#caixa1 {
+    background-color: rgb(161, 3, 3); /* Cor de fundo vermelha */
+    height: 140px; /* Altura de 140px */
+}
+
+/* Estilo para a caixa 'caixa2' */
+#caixa2 {
+    background-color: rgb(161, 3, 3); /* Cor de fundo vermelha */
+    height: 80px; /* Altura de 80px */
+    top: 1300.3%; /* Desloca o elemento para baixo a 1300% da altura de seu elemento pai */
+    position: relative; /* Define a posição como relativa */
+}
+
+/* Estilo para o texto com ID 'texto1' */
+#texto1 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    left: 42%; /* Posiciona 42% da largura da tela à esquerda */
+    top: 90px; /* Posiciona 90px a partir do topo */
+    color: white; /* Cor do texto como branco */
+}
+
+/* Estilo para o título 'titulo2' */
+#titulo2 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    font-size: 40px; /* Define o tamanho da fonte como 40px */
+}
+
+/* Estilo para o título 'titulo3' */
+#titulo3 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 240px; /* Posiciona 240px a partir do topo */
+    font-size: 30px; /* Define o tamanho da fonte como 30px */
+}
+
+/* Estilo para o texto 'texto2' */
+#texto2 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 300px; /* Posiciona 300px a partir do topo */
+    font-size: 20px; /* Define o tamanho da fonte como 20px */
+    width: 30pc; /* Define a largura do elemento como 30pc (picas) */
+}
+
+/* Estilo para o título 'titulo4' */
+#titulo4 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 359px; /* Posiciona 359px a partir do topo */
+    font-size: 30px; /* Define o tamanho da fonte como 30px */
+}
+
+/* Estilo para o texto 'texto3' */
+#texto3 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 430px; /* Posiciona 430px a partir do topo */
+    font-size: 20px; /* Define o tamanho da fonte como 20px */
+    width: 30pc; /* Define a largura do elemento como 30pc (picas) */
+}
+
+/* Estilo para o título 'titulo5' */
+#titulo5 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 500px; /* Posiciona 500px a partir do topo */
+    font-size: 30px; /* Define o tamanho da fonte como 30px */
+    width: 20pc; /* Define a largura do elemento como 20pc (picas) */
+}
+
+/* Estilo para o texto 'texto4' */
+#texto4 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 580px; /* Posiciona 580px a partir do topo */
+    font-size: 20px; /* Define o tamanho da fonte como 20px */
+    width: 30pc; /* Define a largura do elemento como 30pc (picas) */
+}
+
+/* Estilo para o texto 'texto5' */
+#texto5 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    left: 42%; /* Posiciona 42% da largura da tela à esquerda */
+    top: 20px; /* Posiciona 20px a partir do topo */
+    color: white; /* Cor do texto como branco */
+}
+
+/* Estilo para a imagem 'imagen1' */
+#imagen1 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 24pc; /* Posiciona 24pc do topo */
+    left: 3pc; /* Posiciona 3pc da esquerda */
+    width: 410px; /* Define a largura da imagem como 410px */
+}
+
+/* Estilo para a imagem 'imagen2' */
+#imagen2 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 34pc; /* Posiciona 34pc do topo */
+    width: 310px; /* Define a largura da imagem como 310px */
+}
+
+/* Estilo para a imagem 'imagen3' */
+#imagen3 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 34pc; /* Posiciona 34pc do topo */
+    left: 20pc; /* Posiciona 20pc da esquerda */
+    width: 288px; /* Define a largura da imagem como 288px */
+}
+
+/* Estilo para a imagem 'imagen4' */
+#imagen4 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 34pc; /* Posiciona 34pc do topo */
+    left: 38.5pc; /* Posiciona 38.5pc da esquerda */
+    width: 255px; /* Define a largura da imagem como 255px */
+}
+
+/* Estilo para a imagem 'imagen5' */
+#imagen5 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 34pc; /* Posiciona 34pc do topo */
+    left: 55pc; /* Posiciona 55pc da esquerda */
+    width: 278px; /* Define a largura da imagem como 278px */
+}
+
+/* Estilo para a imagem 'imagen6' */
+#imagen6 {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    top: 44pc; /* Posiciona 44pc do topo */
+    width: 310px; /* Define a largura da imagem como 310px */
+}
+
+/* Estilo para o elemento 'arte' */
+#arte {
+    top: 300px; /* Posiciona 300px do topo */
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+}
+
+/* Estilo para o elemento 'cubo' */
+#cubo {
+    top: 680px; /* Posiciona 680px do topo */
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+}
+
+/* Estilo para o botão */
+#botão {
+    position: absolute; /* A posição é absoluta em relação ao elemento pai */
+    left: 3pc; /* Posiciona 3pc da esquerda */
+    top: 3pc; /* Posiciona 3pc do topo */
+    font-size: 40px; /* Define o tamanho da fonte como 40px */
+}

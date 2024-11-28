@@ -1,0 +1,77 @@
+/* Estilos para o elemento html */
+html {
+    height: 50%; /* Define a altura do elemento 'html' para 50% da altura da janela */
+    width: 50%; /* Define a largura do elemento 'html' para 50% da largura da janela */
+}
+
+/* Estilos para o body */
+body {
+    background-color: #111111; /* Define o fundo do body para uma cor escura (quase preta) */
+    min-height: 200%; /* Define a altura mínima do body para 200% da altura da janela, permitindo um scroll vertical */
+    font-family: Arial, sans-serif; /* Define a fonte principal como Arial ou uma fonte genérica sans-serif */
+}
+
+/* Estilos para o título principal */
+#titulo {
+    position: relative; /* A posição do título será relativa ao seu local padrão */
+    left: 82%; /* Desloca o título 82% para a direita em relação ao seu local original */
+    top: 10px; /* Desloca o título 10px para baixo em relação ao seu local original */
+    font-size: 40px; /* Define o tamanho da fonte do título como 40px */
+}
+
+/* Estilos para a linha horizontal (hr) */
+#hr {
+    width: 1890px; /* Define a largura da linha horizontal para 1890px */
+    left: 20px; /* Desloca a linha para 20px da esquerda */
+}
+
+/* Estilos para o segundo título */
+#titulo2 {
+    position: relative; /* A posição do título será relativa ao seu local padrão */
+    left: 93%; /* Desloca o título 93% para a direita */
+    top: 10px; /* Desloca o título 10px para baixo */
+}
+
+/* Estilos para o terceiro título */
+#titulo3 {
+    position: relative; /* A posição do título será relativa ao seu local padrão */
+    left: 93%; /* Desloca o título 93% para a direita */
+    top: 10px; /* Desloca o título 10px para baixo */
+    font-size: 30px; /* Define o tamanho da fonte do título como 30px */
+}
+
+/* Estilos para o quarto título */
+#titulo4 {
+    position: relative; /* A posição do título será relativa ao seu local padrão */
+    left: 85%; /* Desloca o título 85% para a direita */
+    top: 10px; /* Desloca o título 10px para baixo */
+    font-size: 30px; /* Define o tamanho da fonte do título como 30px */
+}
+
+/* Estilos para o quinto título */
+#titulo5 {
+    position: relative; /* A posição do título será relativa ao seu local padrão */
+    left: 93%; /* Desloca o título 93% para a direita */
+    top: 10px; /* Desloca o título 10px para baixo */
+    font-size: 30px; /* Define o tamanho da fonte do título como 30px */
+}
+
+/* Estilos para a div com conteúdo */
+#div {
+    font-size: 18px; /* Define o tamanho da fonte do conteúdo dentro da div como 18px */
+}
+
+/* Estilos para os elementos de Formação */
+#Formação {
+    width: 40pc; /* Define a largura do elemento 'Formação' como 40% da largura da página */
+}
+
+/* Estilos para os elementos de Objetivo */
+#Objetivo {
+    width: 40pc; /* Define a largura do elemento 'Objetivo' como 40% da largura da página */
+}
+
+/* Estilos para o botão 'Voltar' */
+#voltar {
+    font-size: 1.5pc; /* Define o tamanho da fonte do botão 'Voltar' como 1.5pc (unidade relativa à altura da fonte) */
+}
