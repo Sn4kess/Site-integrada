@@ -1,0 +1,115 @@
+/* Estilos para o elemento HTML */
+html {
+  margin: 0; /* Remove a margem padrão */
+  height: 100%; /* Garante que o HTML ocupe 100% da altura da tela */
+}
+
+/* Estilos para o corpo da página */
+body {
+  background-color: #111111; /* Define a cor de fundo do corpo como preto */
+  margin: 1; /* Define a margem do corpo */
+  height: 100%; /* Garante que o corpo ocupe 100% da altura da tela */
+  overflow: hidden; /* Impede que a página tenha barras de rolagem */
+  display: flex; /* Usa o modelo de layout flexbox */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+/* Estilos para o título h1 */
+h1 {
+  margin: 0; /* Remove a margem do título */
+  width: 120vmin; /* Define a largura do título com base na unidade de medida vmin */
+  display: flex; /* Usa o modelo de layout flexbox para o título */
+  justify-content: center; /* Centraliza o conteúdo do título */
+  position: relative; /* Define o posicionamento relativo para posicionamento absoluto dos filhos */
+  animation: color-change 20s infinite; /* Aplica a animação de mudança de cor ao título */
+}
+
+/* Estilos para o pseudo-elemento ::before do título h1 */
+h1::before {
+  opacity: 0.1; /* Define a opacidade para tornar o círculo mais transparente */
+  content: ""; /* Cria um pseudo-elemento vazio */
+  display: block; /* Torna o pseudo-elemento um bloco */
+  position: absolute; /* Posiciona o pseudo-elemento de forma absoluta em relação ao h1 */
+  z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo do título */
+  top: -26vmin; /* Define a posição superior do círculo */
+  left: 29vmin; /* Define a posição à esquerda do círculo */
+  width: 62vmin; /* Define a largura do círculo */
+  height: 62vmin; /* Define a altura do círculo */
+  border-radius: 50%; /* Torna o elemento redondo */
+  border: 1.3vmin solid currentColor; /* Define a borda do círculo com a cor atual do texto */
+  box-sizing: border-box; /* Inclui a borda nas dimensões do elemento */
+}
+
+/* Estilos para o elemento <em> */
+em {
+  font-family: 'Josefin Sans', sans-serif; /* Define a fonte para o texto em itálico */
+  color: currentColor; /* Define a cor do texto como a cor atual do elemento pai */
+  font-size: 14vmin; /* Define o tamanho da fonte com base na unidade de medida vmin */
+  position: relative; /* Define o posicionamento relativo para posicionamento absoluto dos filhos */
+  font-style: normal; /* Remove o estilo de itálico */
+  width: 20vmin; /* Define a largura do elemento em vmin */
+  text-align: center; /* Centraliza o texto */
+  animation: color-change 20s infinite; /* Aplica a animação de mudança de cor ao texto */
+}
+
+/* Estilos para o elemento <em> com a classe 'planet' */
+em.planet {
+  -webkit-animation: planet-rotate 0s linear infinite; /* Aplica a animação de rotação para o Safari */
+  animation: planet-rotate 3s linear infinite; /* Aplica a animação de rotação ao elemento */
+  position: relative; /* Define o posicionamento relativo para o pseudo-elemento */
+}
+
+/* Estilos para o pseudo-elemento ::before do elemento <em> com a classe 'planet' */
+em.planet::before {
+  content: ""; /* Cria um pseudo-elemento vazio */
+  position: absolute; /* Posiciona o pseudo-elemento de forma absoluta em relação ao <em> */
+  top: -.5vmin; /* Ajusta a posição superior */
+  left: 3.5vmin; /* Ajusta a posição à esquerda */
+  z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo do <em> */
+  width: 13vmin; /* Define a largura do círculo */
+  height: 13vmin; /* Define a altura do círculo */
+  border-radius: 50%; /* Torna o pseudo-elemento redondo */
+}
+
+/* Estilos para o elemento <em> com a classe 'planet' à esquerda */
+em.planet.left {
+  opacity: 0.5; /* Torna o elemento mais transparente */
+  -webkit-transform-origin: 40vmin 5vmin; /* Define o ponto de origem da transformação para o Safari */
+  transform-origin: 40vmin 5vmin; /* Define o ponto de origem da transformação */
+}
+
+/* Estilos para o elemento <em> com a classe 'planet' à direita */
+em.planet.right {
+  opacity: 0.5; /* Torna o elemento mais transparente */
+  -webkit-transform-origin: -10vmin 5vmin; /* Define o ponto de origem da transformação para o Safari */
+  transform-origin: -20vmin 5vmin; /* Define o ponto de origem da transformação */
+}
+
+/* Animação de rotação do planeta (usada no em.planet) */
+@-webkit-keyframes planet-rotate {
+  to {
+      -webkit-transform: rotate(1turn); /* Rotaciona o planeta em 1 volta completa */
+  }
+}
+
+/* Animação de rotação do planeta (usada no em.planet) */
+@keyframes planet-rotate {
+  to {
+      transform: rotate(1turn); /* Rotaciona o planeta em 1 volta completa */
+  }
+}
+
+/* Animação de mudança de cor para o texto */
+@keyframes color-change {
+  0% { color: #111111; } /* Cor inicial (preto) */
+  12% { color: #ff7300; } /* Cor laranja */
+  24% { color: #fffb00; } /* Cor amarela */
+  36% { color: #48ff00; } /* Cor verde */
+  48% { color: #00ffd5; } /* Cor ciano */
+  60% { color: #002bff; } /* Cor azul */
+  72% { color: #7a00ff; } /* Cor roxa */
+  84% { color: #ff00c8; } /* Cor rosa */
+  96% { color: #ff0000; } /* Cor vermelha */
+  100% { color: #ff0000; } /* Cor vermelha (final) */
+}

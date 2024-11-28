@@ -1,0 +1,121 @@
+/* Estilo para o botão 1 */
+.botão1 {
+  border: none; /* Remove a borda padrão */
+  padding: 12px 10px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove qualquer decoração de texto (como sublinhado) */
+  font-size: 20px; /* Define o tamanho da fonte */
+  background-color: #111111; /* Cor de fundo do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  position: absolute; /* Define o posicionamento do botão */
+  top: 290px; /* Define a distância do topo da tela */
+  left: 25px; /* Define a distância da esquerda da tela */
+}
+
+/* Estilo para o botão 2 */
+.botão2 {
+  border: none; /* Remove a borda padrão */
+  padding: 12px 10px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove qualquer decoração de texto */
+  font-size: 20px; /* Define o tamanho da fonte */
+  background-color: #111111; /* Cor de fundo do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  position: absolute; /* Define o posicionamento do botão */
+  top: 290px; /* Define a distância do topo da tela */
+  left: 130px; /* Define a distância da esquerda da tela */
+}
+
+/* Estilo para o botão 3 */
+.botão3 {
+  border: none; /* Remove a borda padrão */
+  padding: 12px 10px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove qualquer decoração de texto */
+  font-size: 20px; /* Define o tamanho da fonte */
+  background-color: #111111; /* Cor de fundo do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  position: absolute; /* Define o posicionamento do botão */
+  top: 290px; /* Define a distância do topo da tela */
+  right: 130px; /* Define a distância da direita da tela */
+}
+
+/* Estilo para o botão 4 */
+.botão4 {
+  border: none; /* Remove a borda padrão */
+  padding: 12px 10px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove qualquer decoração de texto */
+  font-size: 20px; /* Define o tamanho da fonte */
+  background-color: #111111; /* Cor de fundo do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  position: absolute; /* Define o posicionamento do botão */
+  top: 290px; /* Define a distância do topo da tela */
+  left: 250px; /* Define a distância da esquerda da tela */
+}
+
+/* Estilo para o botão 5 */
+.botão5 {
+  border: none; /* Remove a borda padrão */
+  padding: 12px 10px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove qualquer decoração de texto */
+  font-size: 20px; /* Define o tamanho da fonte */
+  background-color: #111111; /* Cor de fundo do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  position: absolute; /* Define o posicionamento do botão */
+  top: 290px; /* Define a distância do topo da tela */
+  right: 250px; /* Define a distância da direita da tela */
+}
+
+/* Estilo para o botão 6 */
+.botão6 {
+  border: none; /* Remove a borda padrão */
+  padding: 12px 10px; /* Define o espaçamento interno do botão */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  text-decoration: none; /* Remove qualquer decoração de texto */
+  width: 20pc; /* Define a largura do botão em proporção à tela */
+  font-size: 20px; /* Define o tamanho da fonte */
+  background-color: #111111; /* Cor de fundo do botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  position: absolute; /* Define o posicionamento do botão */
+  top: 350px; /* Define a distância do topo da tela */
+  right: -8pc; /* Define a distância da direita da tela */
+}
+
+/* Estilo para o container de botões */
+.BOTÕES {
+  position: absolute; /* Define o posicionamento do container */
+  width: 60px; /* Define a largura do container */
+  list-style: none; /* Remove os estilos padrão de listas */
+  top: 20pc; /* Define a distância do topo da tela */
+}
+
+/* Estilos para monitores com resolução mínima de 1600px */
+@media screen and (min-width: 1600px) {
+  .BOTÕES {
+      zoom: 1.3; /* Aumenta o zoom do container para monitores grandes */
+  }
+}
+
+/* Estilos para monitores com resolução entre 1200px e 1600px */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .BOTÕES {
+      zoom: 1; /* Define o zoom normal para esta faixa de resolução */
+  }
+}
+
+/* Estilos para monitores com resolução entre 900px e 1600px */
+@media screen and (min-width: 900px) and (max-width: 1600px) {
+  .BOTÕES {
+      zoom: 1.04; /* Ajusta o zoom para monitores de tamanho médio */
+  }
+}
+
+/* Estilo para o botão de currículo */
+.botão_curriculo {
+  color: white; /* Define a cor do texto como branco */
+  background-color: #111111; /* Cor de fundo do botão */
+  border: none; /* Remove a borda padrão */
+  font-size: 30px; /* Define um tamanho maior para o texto */
+}

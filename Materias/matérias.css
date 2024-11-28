@@ -1,0 +1,784 @@
+body {
+  background-color: #111111; /* Cor de fundo como preto escuro */
+}
+
+/* Estilo para o título1 */
+
+
+/* Responsividade para monitores com largura mínima de 1600px */
+@media screen and (min-width: 1600px) {
+  /* Ajuste do zoom para box1 em telas grandes */
+  #box1 {
+      zoom: 1.197; /* Aumenta o zoom da caixa em 1.197 vezes */
+  }
+
+  /* Ajuste do zoom para texto1 em telas grandes */
+  #texto1 {
+      zoom: 1.202; /* Aumenta o zoom do texto1 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para titulo2 em telas grandes */
+  #titulo2 {
+      zoom: 1.202; /* Aumenta o zoom do título2 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para imagem_1 em telas grandes */
+  #imagem_1 {
+      zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para texto2 em telas grandes */
+  #texto2 {
+      zoom: 1.202; /* Aumenta o zoom do texto2 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para texto3 em telas grandes */
+  #texto3 {
+      zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para título3 em telas grandes */
+  #titulo3 {
+      zoom: 1.202; /* Aumenta o zoom do título3 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para título4 em telas grandes */
+  #titulo4 {
+      zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para box3 em telas grandes */
+  #box3 {
+      zoom: 1.202; /* Aumenta o zoom da caixa box3 em 1.202 vezes */
+  }
+  #box2 {
+    zoom: 1.202; /* Aumenta o zoom da caixa box3 em 1.202 vezes */
+}
+  /* Ajuste do zoom para box4 em telas grandes */
+  #box4 {
+      zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+  }
+  #box5 {
+    zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+  }
+  #box6 {
+    zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box7 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box8 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box9 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box10 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box11 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box12 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box13 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#box14 {
+  zoom: 1.202; /* Aumenta o zoom da caixa box4 em 1.202 vezes */
+}
+#titulo5 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo6 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo7 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo8 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo9 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo10 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo11 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo12 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo13 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#titulo14 {
+  zoom: 1.202; /* Aumenta o zoom do título4 em 1.202 vezes */
+}
+#texto4 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto5 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto6 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto7 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto8 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto9 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto10 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto11 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto12 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#texto13 {
+  zoom: 1.202; /* Aumenta o zoom do texto3 em 1.202 vezes */
+}
+#imagem_2 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_3 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_4 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_5 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_6 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_7 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_8 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_9 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_10 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_11 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_12 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+#imagem_13 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 em 1.202 vezes */
+}
+
+}
+
+
+/* Responsividade para monitores com largura entre 900px e 1600px */
+@media screen and (min-width: 900px) and (max-width: 1600px) {
+  /* Ajuste do zoom para box1 em monitores médios */
+  #box1 {
+      zoom: 1; /* Mantém o zoom original para box1 */
+  }
+
+  /* Ajuste do zoom para box2 em monitores médios */
+  #box2 {
+      zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+  }
+
+  /* Ajuste do zoom para texto1 em monitores médios */
+  #texto1 {
+      zoom: 0.96; /* Reduz o zoom de texto1 para 0.96 vezes */
+  }
+
+  /* Ajuste do zoom para título2 em monitores médios */
+  #titulo2 {
+      zoom: 0.96; /* Reduz o zoom de título2 para 0.96 vezes */
+  }
+
+  /* Ajuste do zoom para imagem_1 em monitores médios */
+  #imagem_1 {
+      zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+  }
+
+  /* Ajuste do zoom para texto2 em monitores médios */
+  #texto2 {
+      zoom: 0.95; /* Reduz o zoom de texto2 para 0.95 vezes */
+  }
+
+  /* Ajuste do zoom para texto3 em monitores médios */
+  #texto3 {
+      zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+  }
+
+  /* Ajuste do zoom para título3 em monitores médios */
+  #titulo3 {
+      zoom: 0.95; /* Reduz o zoom de título3 para 0.95 vezes */
+  }
+
+  /* Ajuste do zoom para título4 em monitores médios */
+  #titulo4 {
+      zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+  }
+
+  /* Ajuste do zoom para box3 em monitores médios */
+  #box3 {
+      zoom: 0.96; /* Reduz o zoom de box3 para 0.96 vezes */
+  }
+
+  /* Ajuste do zoom para box4 em monitores médios */
+  #box4 {
+      zoom: 0.96; /* Reduz o zoom de box4 para 0.96 vezes */
+    
+  }
+  #box5 {
+    zoom: 0.96; /* Reduz o zoom de box4 para 0.96 vezes */
+  
+}
+#box6 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box7 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box8 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box9 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box10 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box11 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box12 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box13 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#box14 {
+  zoom: 0.96; /* Reduz o zoom de box2 para 0.96 vezes */
+}
+#titulo5 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo6 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo7 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo8 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo9 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo10 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo11 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo12 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo13 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#titulo14 {
+  zoom: 0.95; /* Reduz o zoom de título4 para 0.95 vezes */
+}
+#texto4 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto5 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto6 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto7 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto8 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto9 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto10 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto11 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto12 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#texto13 {
+  zoom: 0.95; /* Reduz o zoom de texto3 para 0.95 vezes */
+}
+#imagem_2 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_3 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_4 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_5 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_6 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_7 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_8 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_9 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_10 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_11 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_12 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+#imagem_13 {
+  zoom: 1.202; /* Aumenta o zoom da imagem_1 para 1.202 vezes */
+}
+
+}
+#titulo1 {
+  position: absolute; /* A posição é absoluta em relação ao elemento pai */
+  left: 44%; /* Posiciona o título à esquerda em 44% da largura da tela */
+}
+
+/* Estilo para o botão 'voltar' */
+#voltar {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  left: 1pc; /* Posiciona o botão 1pc da esquerda */
+  top: 1pc; /* Posiciona o botão 1pc do topo */
+  font-size: 2pc; /* Tamanho da fonte do botão como 2pc */
+}
+
+/* Estilo para a caixa 'box1' */
+
+
+/* Estilo para o título2 */
+#titulo2 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 9pc; /* Posiciona 9pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+
+/* Estilo para texto1 */
+#texto1 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 11pc; /* Posiciona 12pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px
+}
+
+/* Estilo para a imagem 1 */
+#imagem_1 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_2 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_3 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_4 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_5 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_6 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_7 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_8 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_9 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_10 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_11 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#imagem_12 {
+  height: 87%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 24.9pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+#video {
+  height: 107%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura da imagem com 24.9pc */
+  top: 1.3pc; /* Posiciona 1.3pc do topo */
+}
+.videoc {
+  height: 107%; /* Define a altura da imagem como 87% */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura da imagem com 24.9pc */
+  top: -3pc; /* Posiciona 1.3pc do topo */
+}
+
+/* Estilo para texto2 */
+#texto2 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 37pc; /* Posiciona 38pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+}
+
+/* Estilo para texto3 */
+#texto3 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 63.8pc; /* Posiciona 64.6pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto4 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 88pc; /* Posiciona 64.6pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto5 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 112pc; /* Posiciona 64.6pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto6 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 134.5pc; /* Posiciona 64.6pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto7 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 161pc; /* Posiciona 64.6pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto8 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 185pc; /* Posiciona 64.6pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto9 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 210pc; /* Posiciona 64.6pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto10 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 234pc; /* Posiciona 64.6pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto11 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 259pc; /* Posiciona 64.6pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto12 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 282pc; /* Posiciona 64.6pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+#texto13 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 308pc; /* Posiciona 64.6pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 1000px;
+  font-size: 40px;
+  
+}
+
+/* Estilo para título3 */
+#titulo3 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 36pc; /* Posiciona 36pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#box1 {
+  height: 10%; /* A altura da caixa será 10% da altura do elemento pai */
+  background-color: white; /* Cor de fundo branca */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 97.5pc; /* Largura da caixa com 98.5pc */
+}
+
+/* Estilos básicos para box2 */
+#box2 {
+  height: 50%; /* A altura de box2 será 50% da altura do seu elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* A posição é absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box2 em 30pc */
+  top: 10pc; /* Posiciona box2 10pc a partir do topo */
+}
+/* Estilo para box3 */
+#box3 {
+  height: 50%; /* Altura de box3 com 50% da altura do elemento pai */
+  background-color: #111111; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box3 em 30pc */
+  top: 36pc; /* Posiciona box3 36pc do topo */
+  right: 1%;
+}
+
+/* Estilo para box4 */
+#box4 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: #111111; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 62pc; /* Posiciona box4 62pc do topo */
+}
+
+/* Estilo para título4 */
+#titulo4 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 63pc; /* Posiciona 63pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo5 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 87pc; /* Posiciona 9pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo6 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 111pc; /* Posiciona 9pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo7 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 134pc; /* Posiciona 9pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo8 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 160pc; /* Posiciona 9pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo9 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 184pc; /* Posiciona 9pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo10 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 209pc; /* Posiciona 9pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo11 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 233pc; /* Posiciona 9pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo12 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 258pc; /* Posiciona 9pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo13 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 281pc; /* Posiciona 9pc do topo */
+  left: 1pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+#titulo14 {
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  top: 307pc; /* Posiciona 9pc do topo */
+  left: 33pc; /* Posiciona 33pc da esquerda */
+  width: 50pc; /* Largura de 50pc */
+}
+
+#box5 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: #111111; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 86pc; /* Posiciona box4 62pc do topo */
+  right: 1%;
+}
+#box6 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: #111111; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 110pc; /* Posiciona box4 62pc do topo */
+ 
+}
+#box7 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top:134pc; /* Posiciona box4 62pc do topo */
+  right: 1%;
+}
+#box8 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 158pc; /* Posiciona box4 62pc do topo */
+  
+}
+#box9 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 182pc; /* Posiciona box4 62pc do topo */
+  right: 1%;
+}
+#box10 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 206pc; /* Posiciona box4 62pc do topo */
+ 
+}
+#box11 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 230pc; /* Posiciona box4 62pc do topo */
+  right: 1%;
+  
+}
+#box12 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 254pc; /* Posiciona box4 62pc do topo */
+  
+}
+#box13 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: grey; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 278pc; /* Posiciona box4 62pc do topo */
+  right: 1%;
+}
+#box14 {
+  height: 50%; /* Altura de box4 com 50% da altura do elemento pai */
+  background-color: #111111; /* Cor de fundo cinza */
+  position: absolute; /* Posição absoluta em relação ao elemento pai */
+  width: 30pc; /* Largura de box4 em 30pc */
+  top: 302pc; /* Posiciona box4 62pc do topo */
+
+}

@@ -1,0 +1,19 @@
+/* Estilo para a transição - estado inicial (não visível) */
+.transição-1 {
+  position: fixed; /* Fixando o elemento na tela, com relação à janela de visualização */
+  top: 0; /* Define a posição do topo para 0, fazendo o elemento começar do topo da tela */
+  left: 0; /* Define a posição à esquerda para 0, alinhando o elemento com a borda esquerda */
+  right: 0; /* Define a posição à direita para 0, fazendo o elemento ocupar toda a largura da tela */
+  bottom: 0; /* Define a posição inferior para 0, ocupando toda a altura da tela */
+  z-index: 101; /* Coloca o elemento acima de outros elementos com z-index menor (geralmente 1 para o conteúdo) */
+  background-color: #111111; /* Define a cor de fundo do elemento (preto escuro) */
+  opacity: 0; /* Define a opacidade como 0, tornando o elemento invisível inicialmente */
+  pointer-events: none; /* Desativa a interação com o elemento (não pode ser clicado ou selecionado) */
+  transition: 0.5s ease-out; /* Define uma transição suave de 0.5 segundos quando o estado mudar */
+}
+
+/* Estilo para a transição quando a classe 'is-active' é adicionada (visível e interativo) */
+.transição-1.is-active {
+  pointer-events: all; /* Habilita a interação com o elemento (pode ser clicado e selecionado) */
+  opacity: 1; /* Define a opacidade como 1, tornando o elemento totalmente visível */
+}

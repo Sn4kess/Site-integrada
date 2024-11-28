@@ -1,0 +1,199 @@
+/* Estilo global do corpo da página */
+body {
+  background: #111111;  /* Cor de fundo escura (próxima do preto) */
+  color: #fff;  /* Cor do texto branca */
+  font-family: "Quicksand", sans-serif;  /* Usando a fonte "Quicksand" e uma fonte alternativa sem serifa */
+  font-size: 18px;  /* Define o tamanho base da fonte */
+}
+
+/* Estilo para o conteúdo principal (molekines) */
+.main-content {
+  margin: 0;  /* Remove margens padrão */
+  display: flex;  /* Utiliza flexbox para o layout */
+  flex-wrap: wrap;  /* Permite que os elementos "quebrem" para a próxima linha se necessário */
+  justify-content: center;  /* Centraliza o conteúdo */
+  text-align: center;  /* Alinha o texto no centro */
+  text-transform: uppercase;  /* Transforma todo o texto para letras maiúsculas */
+}
+
+/* Estilo para o título principal (h1) */
+h1 {
+  width: 100%;  /* O título ocupa 100% da largura disponível */
+  margin: 0 auto 1.5em;  /* Centraliza o título e adiciona margem inferior */
+  font-size: 30px;  /* Define o tamanho da fonte do título */
+}
+
+/* Estilo para o container das cadernetas Moleskine */
+.moleskine-wrapper {
+  max-width: calc(100% / 4);  /* Define que o tamanho máximo de cada item será 25% da largura da tela */
+  min-width: 10em;  /* Define a largura mínima */
+}
+
+/* Estilo para cada caderno Moleskine */
+.moleskine-notebook {
+  height: 250px;  /* Altura do caderno */
+  width: 175px;  /* Largura do caderno */
+  position: relative;  /* Posiciona o caderno de forma relativa em seu container */
+  transition: 0.4s ease-in-out;  /* Efeito de transição suave */
+  border-radius: 5px 15px 15px 5px;  /* Arredondamento nas bordas superior e inferior */
+  transform-origin: left center 0px;  /* Define a origem de transformações para a esquerda no centro */
+  display: inline-block;  /* Exibe os cadernos em linha */
+  margin: 30px;  /* Adiciona espaço ao redor de cada caderno */
+  perspective: 800px;  /* Adiciona um efeito de perspectiva 3D */
+  top: 150px;  /* Distância do caderno em relação ao topo da página */
+}
+
+/* Efeito de hover: o caderno não muda muito, mas pode ser expandido para efeitos posteriores */
+.moleskine-notebook:hover {
+  transform: rotateZ(-0deg);  /* Não aplica rotação visível aqui */
+}
+
+/* Efeito de hover na capa do caderno */
+.moleskine-notebook:hover .notebook-cover {
+  transform: rotateY(-20deg);  /* Aplica rotação na capa do caderno ao passar o mouse */
+  z-index: 999;  /* Eleva a capa acima de outros elementos */
+  box-shadow: 20px 10px 50px rgba(0, 0, 0, 0.2);  /* Adiciona uma sombra para profundidade */
+}
+
+/* Estilo da capa do caderno */
+.notebook-cover {
+  background: #cc4b48;  /* Cor vermelha da capa */
+  height: 250px;  /* Altura da capa */
+  width: 175px;  /* Largura da capa */
+  position: absolute;  /* Posiciona a capa dentro do caderno */
+  border-radius: 5px 15px 15px 5px;  /* Bordas arredondadas */
+  z-index: 10;  /* A capa fica acima da página */
+  transition: 0.5s linear;  /* Transição suave quando a capa é transformada */
+  transform-style: preserve-3d;  /* Mantém o efeito 3D da capa */
+  transform-origin: left center 0px;  /* Define a origem da transformação */
+}
+
+/* Estilo para a lombada do caderno (elemento 'before' dentro da capa) */
+.notebook-cover:before {
+  content: "";  /* Cria um elemento vazio */
+  position: absolute;  /* Posiciona este elemento absolutamente dentro da capa */
+  width: 10px;  /* Largura da lombada */
+  height: calc(100% + 2px);  /* A altura da lombada é igual à da capa */
+  top: -1px;  /* Ajusta o topo da lombada */
+  z-index: 100;  /* Garante que a lombada fique acima da capa */
+  border-radius: 2px;  /* Bordas arredondadas na lombada */
+  right: 25px;  /* Ajusta a posição da lombada à direita */
+  transition: 2s ease;  /* Transição suave para o efeito de gradiente */
+  background: linear-gradient(to right, #9c2e2b 0%, #cc4b48 12%, #9c2e2b 25%, #cc4b48 37%, #9c2e2b 50%, #cc4b48 62%, #9c2e2b 75%, #cc4b48 87%, #9c2e2b 100%);  /* Gradiente de cor para a lombada */
+}
+
+/* Estilos para capas de caderno com cores diferentes */
+.notebook-cover.blue {
+  background: #2e95aa;  /* Cor azul para a capa */
+}
+
+.notebook-cover.blue:before {
+  background: linear-gradient(to right, #1e606e 0%, #2e95aa 12%, #1e606e 25%, #2e95aa 37%, #1e606e 50%, #2e95aa 62%, #1e606e 75%, #2e95aa 87%, #1e606e 100%);  /* Gradiente para a lombada azul */
+}
+
+.notebook-cover.green {
+  background: #abc3b5;  /* Cor verde para a capa */
+}
+
+.notebook-cover.green:before {
+  background: linear-gradient(to right, #7ea38e 0%, #abc3b5 12%, #7ea38e 25%, #abc3b5 37%, #7ea38e 50%, #abc3b5 62%, #7ea38e 75%, #abc3b5 87%, #7ea38e 100%);  /* Gradiente para a lombada verde */
+}
+
+.notebook-cover.yellow {
+  background: #fed754;  /* Cor amarela para a capa */
+}
+
+.notebook-cover.yellow:before {
+  background: linear-gradient(to right, #ebb501 0%, #fed754 12%, #ebb501 25%, #fed754 37%, #ebb501 50%, #fed754 62%, #ebb501 75%, #fed754 87%, #ebb501 100%);  /* Gradiente para a lombada amarela */
+}
+
+/* Estilo da "pele" do caderno (parte inferior) */
+.notebook-skin {
+  height: 50px;  /* Altura da pele do caderno */
+  background: #e8e8e0;  /* Cor de fundo (bege claro) */
+  margin-top: 80px;  /* Distância da parte superior */
+  padding: 15px;  /* Preenchimento interno */
+  font-size: 16px;  /* Tamanho da fonte */
+  position: relative;  /* Posicionamento relativo dentro do caderno */
+  z-index: 10;  /* Garante que a pele fique acima da página */
+  color: #222;  /* Cor do texto */
+  text-align: left;  /* Alinha o texto à esquerda */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);  /* Sombra discreta para dar profundidade */
+}
+
+/* Estilo para a lombada da pele */
+.notebook-skin:before {
+  content: "";  /* Cria um elemento vazio */
+  position: absolute;  /* Posiciona este elemento de forma absoluta */
+  width: 100%;  /* Largura total */
+  height: 15px;  /* Altura da lombada */
+  left: 0;
+  bottom: 0;  /* Posiciona a lombada na parte inferior */
+  background: #cddc39;  /* Cor da lombada */
+}
+
+/* Estilo da página do caderno */
+.notebook-page {
+  height: 100%;  /* A página ocupa toda a altura do caderno */
+  width: 175px;  /* A página tem a mesma largura do caderno */
+  position: absolute;  /* A página é posicionada de forma absoluta dentro do caderno */
+  background-color: #fbfae8;  /* Cor de fundo da página */
+  z-index: 0;  /* Coloca a página atrás da capa */
+  border-radius: 5px 16px 16px 5px;  /* Bordas arredondadas da página */
+  overflow: hidden;  /* Esconde qualquer conteúdo que ultrapasse os limites da página */
+}
+
+/* Estilo para as páginas com linhas (ruled) */
+.notebook-page.ruled {
+  background: linear-gradient(to bottom, #fbfae8 9px, #e4e4e4 1px);  /* Linhas horizontais */
+  background-size: 100% 10px;  /* Define o tamanho das linhas */
+}
+
+/* Estilo para páginas com grid (quadradas) */
+.notebook-page.squared {
+  background-image: linear-gradient(#e4e4e4 1px, transparent 1px), linear-gradient(90deg, #e4e4e4 1px, transparent 1px);
+  background-size: 10px 10px, 10px 10px, 2px 2px, 2px 2px;  /* Grid quadrado */
+}
+
+/* Estilo para páginas pontilhadas */
+.notebook-page.dotted {
+  background: linear-gradient(90deg, #fbfae8 10px, transparent 1%) center, linear-gradient(#fbfae8 10px, transparent 1%) center, #999;
+  background-size: 11px 11px;  /* Padrão de pontos */
+}
+
+/* Estilo do rodapé */
+footer {
+  text-align: center;  /* Centraliza o conteúdo do rodapé */
+  margin: 8em auto;  /* Espaçamento superior de 8em */
+  width: 100%;  /* Largura total */
+}
+
+/* Estilo dos links de redes sociais no rodapé */
+footer a {
+  text-decoration: none;  /* Remove o sublinhado dos links */
+  display: inline-block;  /* Exibe os links em linha */
+  width: 45px;  /* Largura do link */
+  height: 45px;  /* Altura do link */
+  border-radius: 50%;  /* Bordas arredondadas (ícones circulares) */
+  background: transparent;  /* Fundo transparente */
+  border: 1px dashed #fff;  /* Borda pontilhada branca */
+  color: #fff;  /* Cor do texto (branca) */
+  margin: 5px;  /* Margem ao redor dos links */
+}
+
+/* Efeito de hover nos links */
+footer a:hover {
+  background: rgba(255, 255, 255, 0.1);  /* Fundo levemente transparente quando o mouse passa */
+}
+
+/* Estilo para o ícone dentro do link do rodapé */
+footer a .icons {
+  margin-top: 12px;  /* Margem superior para o ícone */
+  display: inline-block;  /* Exibe o ícone em linha */
+  font-size: 20px;  /* Tamanho do ícone */
+}
+
+/* Estilo para o link de "voltar" */
+#voltar {
+  color: white;  /* Cor branca para o link de voltar */
+}

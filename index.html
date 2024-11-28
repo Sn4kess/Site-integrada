@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <canvas id="c"></canvas>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM VINDO</title>
+    <!-- LINKS DOS CSS E JS -->
+    <link rel="stylesheet" href="BOTÕES.css"> <!-- Estilo para os botões -->
+    <link rel="stylesheet" href="titulo.css"> <!-- Estilo para o título animado -->
+    <link rel="stylesheet" href="sobre o site.css"> <!-- Estilo para a seção "Sobre o Site" -->
+    <link rel="stylesheet" href="transição.css"> <!-- Estilo para as transições (efeitos visuais) -->
+    <link rel="stylesheet" href="background.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'> <!-- Importa a fonte "Josefin Sans" -->
+</head>
+<body>
+
+    <!-- Elemento de transição inicial (provavelmente uma animação de carregamento) -->
+    <div class="transição transição-1 is-active"></div>
+
+    <!-- TITULO DE BEM VINDO -->
+    <h1>
+        <!-- Elementos de animação para o título "BEM VINDO" -->
+        <em class="planet left">.</em>
+        <em>B</em>
+        <em>E</em>
+        <em>M</em>
+        <em></em>
+        <em>V</em>
+        <em>I</em>
+        <em>N</em>
+        <em>D</em>
+        <em>O</em>
+        <em class="planet right">.</em>
+    </h1>
+
+    <!-- Lista de botões de áreas de conhecimento -->
+    <ul class="BOTÕES">
+        <li class="botão1"><a style="color: white;" href="Materias/MAT.html">MAT</a></li>
+        <li class="botão2"><a style="color: white;" href="Materias/IOT.html">IOT</a></li>
+        <li class="botão3"><a style="color: white;" href="Materias/CNT.html">CNT</a></li>
+        <li class="botão4"><a style="color: white;" href="Materias/CHS.html">CHS</a></li>
+        <li class="botão5"><a style="color: white;" href="Materias/LG.html">LG</a></li>
+        <li class="botão6"><a style="color: white;" href="Pagina pessoal/pessoal.html">PAGINA PESSOAL</a></li>
+    </ul>
+
+    <!-- BOTÃO DO "SOBRE O SITE" -->
+    <button id="botãoinfo">SOBRE O SITE</button>
+
+    <!-- Caixa de informações sobre o site -->
+    <div id="caixa" class="oculto">
+        <p style="color: white">
+            Esse site foi feito por Luan Alves da Silva, do IOT 3° ano do ensino médio técnico do Senac Nações Unidas.
+        </p>
+        <button id="fechar">Fechar</button>
+    </div>
+
+    <!-- Scripts externos -->
+    <script src="transição.js"></script> <!-- Script para transições visuais -->
+    <script src="script.js"></script> <!-- Script para interações do site -->
+    <script src="background.js"></script>
+</body>
+</html>

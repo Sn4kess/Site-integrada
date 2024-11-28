@@ -1,0 +1,13 @@
+/* Estilos para o título com id 'titulo' */
+#titulo {
+    position: relative; /* O título será posicionado de forma relativa, ou seja, em relação à sua posição normal no fluxo do documento */
+    top: auto; /* A propriedade 'top' é definida como 'auto', o que significa que não haverá deslocamento vertical do título */
+    color: white; /* Define a cor do texto como branca */
+    font-size: 50px; /* Define o tamanho da fonte para 50 pixels */
+}
+
+/* Estilos para o elemento HTML */
+html {
+    margin: 0; /* Remove a margem padrão do elemento <html> */
+    height: 100%; /* Define a altura do elemento <html> para 100% da altura da tela (ou da janela de visualização) */
+}
